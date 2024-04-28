@@ -1,9 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Head>
+        <meta name="google-site-verification" content="Rg9IKJnSGmTiw0HX0biAtqtSW8q9oGr9x61DVqr3dyQ" />
+      </Head>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
